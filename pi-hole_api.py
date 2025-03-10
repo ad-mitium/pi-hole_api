@@ -21,11 +21,9 @@ def create_api_file(filename):
     api_key=input("Please enter a valid api key: ")
     
     try:
-        data_outfile = open( filename , 'a')
+        data_outfile = open( filename , 'w')
         
         data_outfile.write("{{ 'password' : '{}' }}".format(api_key))
-    except FileNotFoundError as fnf_error:
-        print(fnf_error)
     except IOError:
         print("Unable to open "+data_outfile)
 
