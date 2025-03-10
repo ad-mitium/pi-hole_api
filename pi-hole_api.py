@@ -4,7 +4,7 @@ import requests,json
 
 env_file = '.env.txt'
 
-url = "https://192.168.64.201/api/auth"
+url = "https://pi.hole/api/auth"
 
 def read_data(filename):
     try:
