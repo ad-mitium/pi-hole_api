@@ -8,4 +8,4 @@ Currently sends a request to the API and then closes the request. It is likely t
 
 The [existing documentation](https://docs.pi-hole.net/api/) is very weak, so I am setting up a testing framework for testing this with the idea of pulling queried DNS entries for parsing in the future.
 
-The provided env.txt is and example. Running the code the first time should create the file.
+The provided env.txt is an example. Running the code the first time should create the file.
